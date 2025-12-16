@@ -1,0 +1,352 @@
+/* ------------------------------
+----------- RESET --------------
+------------------------------*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 15px;
+
+}
+
+body{
+    background-color: rgb(155, 136, 136);
+}
+
+
+
+.texte{
+    color: white
+}
+
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-orange{
+    color: orange;
+}
+
+.bg-orange1{
+background: #fd8d5d;
+padding: 20px;
+}
+
+.bg-reserver{
+width: 30px;
+    background-color: rgb(114, 9, 9);
+}
+
+
+
+.fz-20{
+    font-size: 20px;
+}
+
+.fz-30{
+    font-size: 30px;
+}
+
+
+
+
+
+.img-banniere{
+    background-image: url("cape\ game\ banniere.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+.styled {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  border-radius: 10px;
+  background-color: rgb(23, 14, 13);
+  background-image: linear-gradient(
+    to top left,
+    rgb(0 0 0 / 0.2),
+    rgb(0 0 0 / 0.2) 30%,
+    transparent
+  );
+  box-shadow:
+    inset 2px 2px 3px rgb(255 255 255 / 0.6),
+    inset -2px -2px 3px rgb(0 0 0 / 0.6);
+}
+
+.styled:hover {
+  background-color: red;
+}
+
+.styled:active {
+  box-shadow:
+    inset -2px -2px 3px rgb(255 255 255 / 0.6),
+    inset 2px 2px 3px rgb(0 0 0 / 0.6);
+}
+
+.card {
+    background-color: white;
+    text-align: center;
+    
+ width: 48%;
+    
+height: 600px;
+}
+
+
+.card-temoignage {
+
+
+background-color: white;
+    text-align: center;
+    
+ width: 25%;
+    
+height: 300px;
+
+
+
+
+}
+
+
+
+.styled-horaire {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  border-radius: 10px;
+  background-color: rgb(23, 14, 13);
+  background-image: linear-gradient(
+    to top left,
+    rgb(0 0 0 / 0.2),
+    rgb(0 0 0 / 0.2) 30%,
+    transparent
+  );
+  box-shadow:
+    inset 2px 2px 3px rgb(255 255 255 / 0.6),
+    inset -2px -2px 3px rgb(0 0 0 / 0.6);
+}
+
+.styled:hover {
+  background-color: red;
+}
+
+.styled:active {
+  box-shadow:
+    inset -2px -2px 3px rgb(255 255 255 / 0.6),
+    inset 2px 2px 3px rgb(0 0 0 / 0.6);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------
+----------- FLEX BOX --------------
+------------------------------*/
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* alignement horizontale */
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-content{
+    justify-content: center;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+/* alignement verticale */
+
+.align-center {
+    align-items: center;
+}
+
+.align-end {
+    align-items: end;
+}
+.text-align{
+    text-align: center;
+}
+/* Gap */
+
+.gap-12 {
+    gap: 12px;
+}
+
+.gap-24 {
+    gap: 24px;
+}
+
+/* direction */
+.flex-column {
+    flex-direction: column;
+}
+
+
+/* ------------------------------
+----------- LARGEURS --------------
+------------------------------*/
+
+.w-100 {
+    width: 100%;
+}
+
+.w-50 {
+    width: 100%;
+}
+
+.w-40 {
+    width: 40%;
+}
+.w-2{
+    width: 2%;
+}
+
+.w-20 {
+    width: 20%;
+}
+.w-10{
+    width: 10%;
+}
+
+.w-33 {
+    width: 33%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.font-size{
+    font-size: 20px;
+}
+
+
+
+/* ------------------------------
+----------- CONTAINER --------------
+------------------------------*/
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ------------------------------
+----------- POSITIONS --------------
+------------------------------*/
+
+
+
+/* ------------------------------
+----------- TEXTES --------------
+------------------------------*/
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ------------------------------
+----------- MARGINS & PADDING --------------
+------------------------------*/
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mt-30{
+    margin: 30px;
+}
+
+
+.mt-20{
+    margin-top: 20px
+}
+
+.mb-10{
+    margin-bottom: 60px;
+}
+
+
+.ml{
+    margin-left: 200px;
+}
+
+
+
+.pl-70 {
+    padding-left: 70px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+.Pb-16{
+    padding-bottom: 16px;
+}
+
+.Pb-8{
+    padding-bottom: 8px;
+}
+
+.mt-50{
+    margin-top: 50px;
+}
+
+
