@@ -12,33 +12,43 @@
 }
 
 body{
-    background-color: rgb(155, 136, 136);
+    background-color: black;
 }
 
 
 
-.texte{
-    color: white
+
+/* ------------------------------
+          footer
+------------------------------*/
+
+
+
+.bg-gold{
+    color: gold;
 }
 
 
-.bg-red {
-    background-color: red;
+
+
+
+
+/* ------------------------------
+   section hero 
+------------------------------*/
+
+.teko-uniquifier{
+  font-family: "Teko", sans-serif;
+  font-size: 30px;
 }
 
-.bg-orange{
-    color: orange;
+
+
+.roboto-uniquifier {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
 }
 
-.bg-orange1{
-background: #fd8d5d;
-padding: 20px;
-}
-
-.bg-reserver{
-width: 30px;
-    background-color: rgb(114, 9, 9);
-}
 
 
 
@@ -53,9 +63,8 @@ width: 30px;
 
 
 
-
 .img-banniere{
-    background-image: url("cape\ game\ banniere.jpg");
+    background-image: url("banniere.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -64,12 +73,16 @@ width: 30px;
     
 }
 
+.texte{
+    color: white
+}
 
 
 
 
-
-
+/* ------------------------------
+           header 
+------------------------------*/
 
 .styled {
   border: 0;
@@ -102,19 +115,47 @@ width: 30px;
     inset 2px 2px 3px rgb(0 0 0 / 0.6);
 }
 
+
+
+
+
+
+/* ------------------------------
+   section activité 
+------------------------------*/
+
+
 .card {
     background-color: white;
     text-align: center;
     
- width: 48%;
+ width: 30%;
     
 height: 600px;
 }
 
 
+
+/* ------------------------------
+   carte avantage
+------------------------------*/
+
+
+
+.card-avantage{
+    background-color: white;
+    text-align: center;
+    width: 40%;
+    height: 100px;
+}
+
+
+/* ------------------------------
+   carte temoignage 
+------------------------------*/
+
+
 .card-temoignage {
-
-
 background-color: white;
     text-align: center;
     
@@ -122,10 +163,36 @@ background-color: white;
     
 height: 300px;
 
-
-
-
 }
+
+
+.bg-bege{
+background: rgb(236, 236, 185);
+padding: 20px;
+}
+
+
+
+
+
+
+
+/* ------------------------------
+   carte activité 
+------------------------------*/
+.card-activite{
+    background-color: white;
+    text-align: center;
+    
+ width: 30%;
+    
+height: 750px;
+}
+
+
+/* ------------------------------
+   section activite et header 
+------------------------------*/
 
 
 
@@ -319,12 +386,18 @@ a {
     margin-top: 20px
 }
 
-.mb-10{
+.mb-60{
     margin-bottom: 60px;
 }
 
 
-.ml{
+.mb-30{
+    margin-bottom: 30px;
+}
+
+
+
+.ml-200{
     margin-left: 200px;
 }
 
@@ -332,6 +405,17 @@ a {
 
 .pl-70 {
     padding-left: 70px;
+}
+
+
+.pr-70{
+    padding-right: 70px;
+}
+
+
+
+.pt{
+    padding-top: 100px;
 }
 
 .pb-100 {
@@ -345,8 +429,8 @@ a {
     padding-bottom: 8px;
 }
 
-.mt-50{
-    margin-top: 50px;
+.mt-300{
+    margin-top: 300px;
 }
 
 
